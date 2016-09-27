@@ -1,0 +1,25 @@
+{
+  "name": "typescript-migration",
+  "version": "1.0.0",
+  "description": "A basic migration from a JS source code to Typescript",
+  "main": ".src/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/missbruni/typescript-JS-migration.git"
+  },
+  "author": "Bruna Lima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/missbruni/typescript-JS-migration/issues"
+  },
+  "homepage": "https://github.com/missbruni/typescript-JS-migration#readme",
+  "devDependencies": {
+    "browserify": "^13.1.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-uglify": "^2.0.0"
+  }
+}
