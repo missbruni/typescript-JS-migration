@@ -8,12 +8,20 @@ module.exports = function(grunt) {
       },
       build: {
         src: 'src/index.js',
-        dest: 'build/index.min.js'
+        dest: 'build/bundle-src.js'
       }
+    },
+    browserify : {
+      app : {
+        files : {
+          'build/bundle.js': ['src/*.js']
+        }
+      },
     }
   });
 
   grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-browserify');
 
-  grunt.registerTask('default', ['uglify'])
+  grunt.registerTask('default', ['browserify', 'uglify'])
 };
