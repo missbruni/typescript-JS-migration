@@ -1,5 +1,5 @@
 'use strict';
 
-module.exports = function whatsUp(name) {
+export default function whatsUp(name) {
   return `Whats up ${name} ?`;
-};
+}

@@ -4,7 +4,8 @@
   "description": "A basic migration from a JS source code to Typescript",
   "main": ".src/index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,8 @@
     "grunt": "^1.0.1",
     "grunt-browserify": "^5.0.0",
     "grunt-contrib-concat": "^1.0.1",
-    "grunt-contrib-uglify": "^2.0.0"
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-typescript": "^0.8.0",
+    "typescript": "^2.0.3"
   }
 }

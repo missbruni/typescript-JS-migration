@@ -12,11 +12,11 @@ module.exports = function(grunt) {
       }
     },
     browserify : {
-      app : {
+      build : {
         files : {
           'build/bundle.js': ['src/*.js']
-        }
-      },
+        },
+      }
     }
   });
 
